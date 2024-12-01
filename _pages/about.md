@@ -1,25 +1,30 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+cv_pdf: Matthew_Rilloraza_CV.pdf
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mr_prof_pic1.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #more_info: >
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+#news: true # includes a list of news items
+#selected_papers: true # includes a list of papers marked as "selected={true}"
+#social: true # includes social icons at the bottom of the page
 ---
+<a href="https://github.com/mrilloraza" target="_blank">GitHub</a> - <a href="https://www.linkedin.com/in/matthewrilloraza/" target="_blank">LinkedIn</a> - <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer">CV</a>
+  
+I'm an ML researcher interested in geospatial and environmental applications. Recently, I graduated from the University of Illinois with a degree in Engineering Physics. My recent and upcoming projects include:
+- implementing interpretable ML frameworks for interpolating soil phosphorous distributions
+- applying interpretable-by-design Neural Additive Model architectures to simulated climate data
+- utilizing remote sensing imagery for the detection of methane pipeline leakages
+  
+In a broader context, I am interested in collaborating with environmental domain experts to create transparent, robust, and parsimonious ML systems that are attuned to their specific application area.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+If you would like to reach out, feel free to contact me at <mailto:mrillo@pm.me>.
